@@ -7,3 +7,7 @@ costPerSqIn = float(input("Please enter the cost per square inch: "))
 #processing - calculate the total cost
 bannerArea = bannerWidth * bannerLength
 totalArea = bannerArea * costPerSqIn
+
+#Display the total cost 
+
+print("The total cost of the banner is: ", totalArea)
