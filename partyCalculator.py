@@ -10,4 +10,4 @@ totalArea = bannerArea * costPerSqIn
 
 #Display the total cost 
 
-print("The total cost of the banner is: ", totalArea)
+print("The total cost of the banner is: ", totalArea) 
