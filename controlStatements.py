@@ -32,12 +32,23 @@
 #     print("Sorry not sorry")
 
 
-bonus = 15
-if bonus <= 15:
-    num = 100
-else:
-    num = 200
-print("\n num = ", num)
+# bonus = 55
+# if bonus <= 15:
+#     num = 100
+# else:
+#     num = 200
+# print("\n num = ", num)
 
+years = int(input("Enter the number of years you've been married"))
+if years == 1:
+    print("Your first year -- great")
+elif years == 10:
+    print("A whole decade -- impressive")
+elif years == 25:
+    print("your sikver anniversary -- enjoy")
+elif years == 50:
+    print("your golden anniversary")
+else:
+    print("pffft")
 
 
