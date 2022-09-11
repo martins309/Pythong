@@ -55,15 +55,15 @@
 # operator priority ranking: 1st: not, 2nd: and, 3rd: or
 #shows which one of these operators will be evaluated first
 
-age = int(input("Enter your age: "))
-city = input("Enter your city (Newark or other): ")
+# age = int(input("Enter your age: "))
+# city = input("Enter your city (Newark or other): ")
 
 
-#AND operator
-if age >= 65 and city == "Newark":
-    print("\nYou are over 64 and live in Newark. ")
-else: 
-    print("\nYour are", age, "and live in", city)
+# #AND operator
+# if age >= 65 and city == "Newark":
+#     print("\nYou are over 64 and live in Newark. ")
+# else: 
+#     print("\nYour are", age, "and live in", city)
 
 # #/****************************************************
 # age = int(input("Enter your age: "))
@@ -75,14 +75,14 @@ else:
 #     print("You are between 19 and 64. ")
 
 # #/****************************************************
-# age = int(input("Enter your age: "))
+age = int(input("Enter your age: "))
 
-# # NOT operator
-# if not age <= 21:
-#     print("You are", age, "years old")
-#     print("You are older than 21")
-# else:
-#     print("You are age", age, "years old")
-#     print("You are under 22")
+# NOT operator
+if not age <= 21:
+    print("You are", age, "years old")
+    print("You are older than 21")
+else:
+    print("You are age", age, "years old")
+    print("You are under 21")
 
 
