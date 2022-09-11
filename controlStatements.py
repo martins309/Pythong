@@ -39,16 +39,49 @@
 #     num = 200
 # print("\n num = ", num)
 
-years = int(input("Enter the number of years you've been married"))
-if years == 1:
-    print("Your first year -- great")
-elif years == 10:
-    print("A whole decade -- impressive")
-elif years == 25:
-    print("your sikver anniversary -- enjoy")
-elif years == 50:
-    print("your golden anniversary")
+# years = int(input("Enter the number of years you've been married: "))
+# if years == 1:
+#     print("Your first year -- great")
+# elif years == 10:
+#     print("A whole decade -- impressive")
+# elif years == 25:
+#     print("your sikver anniversary -- enjoy")
+# elif years == 50:
+#     print("your golden anniversary")
+# else:
+#     print("pffft")
+
+#Logical operators and, or, not
+# operator priority ranking: 1st: not, 2nd: and, 3rd: or
+#shows which one of these operators will be evaluated first
+
+age = int(input("Enter your age: "))
+cty = input("Enter your city(Newark or other): ")
+
+#AND operator
+if age >= 65 and city == "Newark":
+    print("\n You are over 64 and live in Newark")
+else: 
+    print("\nYour are", age, "and line in", city)
+
+#/****************************************************
+age = int(input("Enter your age: "))
+
+#OR operator
+if age >=65 or age <= 18:
+    print("You are", age, "years old")
 else:
-    print("pffft")
+    print("You are between 19 and 64. ")
+
+#/****************************************************
+age = int(input("Enter your age: "))
+
+# NOT operator
+if not age <= 21:
+    print("You are", age, "years old")
+    print("You are older than 21")
+else:
+    print("You are age", age, "years old")
+    print("You are under 22")
 
 
