@@ -22,14 +22,3 @@
 # 0 is not a valid interstate highway number. 
 
 
-data = [0,1,2,3,4]
-
-for i in range(4):
-     print(data[i + 1])
-   
-
-new_list = ['cows', 'chickens', 'bears']
-
-new_list_with_numbers = [1,2,3,4,5,6]
-
-new_nested_list = [1, ['chicken', 'cow', 'zebra'], 4, 12]
