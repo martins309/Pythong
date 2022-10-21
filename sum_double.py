@@ -6,3 +6,10 @@
 # sum_double(3, 2) → 5
 # sum_double(2, 2) → 8
 
+def sum_double(a, b):
+  sum = a + b
+  
+  if a == b:
+    return sum * 2
+  else:
+    return sum
