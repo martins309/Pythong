@@ -7,15 +7,23 @@
 # pos_neg(-4, -5, True) → True
 
 
-def pos_neg(a, b, neg):
-    posA = a > 0
-    posB = b > 0
-    negA = a < 0
-    negB = b < 0
+def pos_neg(a, b, negative):
+  posA = a > 0
+  negA = a < 0
+  posB = b > 0
+  negB = b < 0
+  
+  if(posA and negB) or (negA and posB):
+    return True
+  elif(posA and negB) and negative == True:
+    return True
+  elif(negA and posB) and negative == True:
+    return True
+  elif(negA and negB) and negative == True:
+    return True
+  else: 
+    return False
 
-    if(posA and negB) or (negA and posB):
-        return True
-    elif(posA and negB) or (negA and posB) and neg == True:
-        return True
-    else:
-        False
+
+
+
