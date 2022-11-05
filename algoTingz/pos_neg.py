@@ -17,12 +17,23 @@ def pos_neg(a, b, negative):
     return True
   elif(posA and negB) and negative == True:
     return True
-  elif(negA and posB) and negative == True:
-    return True
-  elif(negA and negB) and negative == True:
-    return True
   else: 
     return False
+
+
+
+  #     if(posA and negB) or (negA and posB):
+  #   return True
+  # elif(posA and negB) and negative == True:
+  #   return True
+  # elif(negA and posB) and negative == True:
+  #   return True
+  # elif(negA and negB) and negative == True:
+  #   return True
+  # else: 
+  #   return False
+
+
 
 
 
