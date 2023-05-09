@@ -19,3 +19,17 @@
 
 #This is an example of a recursive fuction 
 
+def cal_factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return (x * cal_factorial(x-1))
+num = 10
+print("The factorial of", num, "is", cal_factorial(num))
+
+#This is a lamba function
+#synonymous with anonymous function
+chicken = lambda q: q * 12 - abs(-3674)
+print("THis is lambda: ", chicken(3))
+
+
