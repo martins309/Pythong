@@ -39,7 +39,7 @@ while turns > 0:
     if guess not in word:
         turns -= 1
         print("that is incorrect")
-        print("you have,", turns, "more guesses")
+        print("you have", turns, "more guesses")
 
         if turns ==  0:
             print("you suck")
