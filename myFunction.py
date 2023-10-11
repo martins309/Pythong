@@ -12,7 +12,7 @@ def myFunction():
         elif y % 2 == 0:
             print(array[i ** 2])
         else:
-            array[i -8 *1000]
+            array[i -8 * 1000]
 
         
 
