@@ -13,19 +13,22 @@
 
 def evenOdd():
     user = int(input("Pick a number between 1 and 10:  "))
-    num = int(input())
-    check = int(input())
     if user % 4 == 0:
         print("no this wont do either, this is divisble by 4")
     elif user % 2 == 0:
         print("I don't like this, it's an even number")
     else:
         print("wtf this one an odd number ><")
-    input("alright pick two numbers now")
-    if check % num == 0:
-        print("this works bcuz there is not remainder")
+    print()
+    _= input("alright pick two numbers now")
+    check = int(input("okay pick the first number:  "))
+    div = int(input("Okay now pick the second number:  "))
+    
+    if check % div == 0:
+        print("okay this works because there is no remainder")
     else:
-        print("try again loser")
+        print("nope try that again")
+   
             
 
 evenOdd()
