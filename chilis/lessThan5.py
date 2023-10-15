@@ -11,10 +11,8 @@
 
 
 def lessThan5(array):
-    for x in array:
-        if x > 5:
-            print("this number is too big")
-        else:
-            print(x)
+    print([x for x in array if x<5])
 
-lessThan5( [1, 3, 6, 5, 4, 33, 342, 3, 64, 4])
+lessThan5([1, 3, 6, 5, 4, 33, 342, 3, 64, 4])
+
+
