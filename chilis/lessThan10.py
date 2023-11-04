@@ -16,3 +16,5 @@ def lessThan5(array):
 lessThan5([1, 3, 6, 5, 4, 33, 342, 3, 64, 4])
 
 
+def smallerThanFive(array):
+    
