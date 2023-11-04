@@ -25,4 +25,12 @@ def smallerThanFive():
         if o < 5:
             newList.append(o)
     print(newList)
+    print()
+    
+    user = int(input("you know what i wnat ;) :  "))
+    for old in oldList:
+        if old < o:
+            otherList.append(old)
+            otherList.sort()
+    print(otherList)
 smallerThanFive()
