@@ -19,8 +19,10 @@
 def smallerThanFive():
     oldList = [1,2,23,3,4,5,6,7,8]
     newList = []
-    user = int(input("please enter a new number: "))
-    for x in oldList:
-        if(user < x):
-            newList.append(user)
-    smallerThanFive([newList])   
+    otherList = []
+    
+    for o in oldList:
+        if o < 5:
+            newList.append(o)
+    print(newList)
+smallerThanFive()
