@@ -10,16 +10,17 @@
 # Ask the user for a number and return a list that contains only elements from the original list a that are smaller than that number given by the user.
 
 
-def lessThan5(array):
-    print([x for x in array if x<5])
+# def lessThan5(array):
+#     print([x for x in array if x<5])
 
-lessThan5([1, 3, 6, 5, 4, 33, 342, 3, 64, 4])
+# lessThan5([1, 3, 6, 5, 4, 33, 342, 3, 64, 4])
 
 
-    def smallerThanFive(array):
-        newList = []
-        user = int(input("please enter a new number: "))
-        for x in array:
-            if(user < x):
-                newList.append(user)
-        
+def smallerThanFive():
+    oldList = [1,2,23,3,4,5,6,7,8]
+    newList = []
+    user = int(input("please enter a new number: "))
+    for x in oldList:
+        if(user < x):
+            newList.append(user)
+    smallerThanFive([newList])   
