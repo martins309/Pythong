@@ -4,14 +4,13 @@
 # For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
 
 
- def divisor():
-     div = []
-     y = range(10,28)
-     num = int(input("gimme a number little boy:  "))
-     print()
-     __=input("and make it snappy or else")
-     
-     for el in y:
-         if num % y == 0:
-             div.append(num)
+def divisor():
+    div = []
+    y = range(10,28)
+    num = int(input("gimme a number little boy:  "))
+    
+    for el in y:
+        if el % num == 0:
+            div.append(el)
     print(div)
+divisor()
