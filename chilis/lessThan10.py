@@ -16,5 +16,10 @@ def lessThan5(array):
 lessThan5([1, 3, 6, 5, 4, 33, 342, 3, 64, 4])
 
 
-def smallerThanFive(array):
-    
+    def smallerThanFive(array):
+        newList = []
+        user = int(input("please enter a new number: "))
+        for x in array:
+            if(user < x):
+                newList.append(user)
+        
