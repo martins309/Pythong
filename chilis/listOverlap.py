@@ -5,5 +5,9 @@
 
 
 def listOverlap():
-    print("this is where the code goes")
-    print("I need to pseudocode first")
+    list1 = [1,2,3,3,3,4,5,6,6]
+    list2 = [1,1,1,1,2,3,4,5,6,7,8,8,8]
+    
+    newList = []
+    
+    
