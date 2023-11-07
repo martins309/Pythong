@@ -9,6 +9,7 @@ def listOverlap():
     list2 = [1,1,1,1,2,3,4,5,6,7,8,8,8]
     
     newList = []
-        for i in list1 for j in list2:
-            print(set(list(i,j)))
+    
+    for a in list1:
+        
 listOverlap()
