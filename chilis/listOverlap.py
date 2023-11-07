@@ -10,4 +10,5 @@ def listOverlap():
     
     newList = []
     
-    
+    for i in zip_longest(list1, list2):
+        
