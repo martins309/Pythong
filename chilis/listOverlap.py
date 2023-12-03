@@ -14,4 +14,7 @@ def listOverlap():
         if list1.count(a) > 1:
             newList.append(a)
             print(set(newList))
+        for b in list2:
+            if list2.count(b) > 1:
+                print(set(newList))
 listOverlap()
