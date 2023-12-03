@@ -2,7 +2,7 @@
 #program must work on two lists that are of different size 
 #for extras:
 #randomly generete two lists to test this and write it one line
-
+#what we want it to say is [1, 3, 6, 8]
 
 def listOverlap():
     list1 = [1,2,3,3,3,4,5,6,6]
@@ -13,5 +13,5 @@ def listOverlap():
     for a in list1:
         if list1.count(a) > 1:
             newList.append(a)
-            print(newList)
+            print(set(newList))
 listOverlap()
