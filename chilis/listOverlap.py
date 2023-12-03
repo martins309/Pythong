@@ -11,11 +11,12 @@ def listOverlap():
     newList = []
     newList2 = []
     
-    for a in list1:
-        if list1.count(a) > 1:
-            newList.append(a)
-            print(set(newList))
-        for b in list2:
-            if list2.count(b) > 1:
-                print(set(newList2))
+    # for a in list1:
+    #     if list1.count(a) > 1:
+    #         newList.append(a)
+    #         print(set(newList))
+    for b in list2:
+        if list2.count(b) > 1:
+            newList2.append(b)
+            print(set(newList2))
 listOverlap()
