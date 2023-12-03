@@ -9,6 +9,7 @@ def listOverlap():
     list2 = [1,1,1,1,2,3,4,5,6,7,8,8,8]
     
     newList = []
+    newList2 = []
     
     for a in list1:
         if list1.count(a) > 1:
@@ -16,5 +17,5 @@ def listOverlap():
             print(set(newList))
         for b in list2:
             if list2.count(b) > 1:
-                print(set(newList))
+                print(set(newList2))
 listOverlap()
